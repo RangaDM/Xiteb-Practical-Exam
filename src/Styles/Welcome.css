@@ -1,0 +1,83 @@
+.welcome-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome-shipping-partner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.welcome-text-content {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.welcome-tagline {
+    color: #FFA500;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.welcome-main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.welcome-highlight {
+    color: #ff7c46;
+}
+
+.welcome-description {
+    font-size: 1rem;
+    color: #555;
+    margin: 20px 0;
+}
+
+.welcome-cta-button {
+    background-color: #ff7c46; /* Amber color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.welcome-cta-button:hover {
+    background-color: #ff7c46;
+}
+
+.welcome-image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1100px) {
+    .welcome-h-screen-sm {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome-shipping-partner-section {
+        flex-direction: column;
+    }
+
+    .welcome-text-content {
+        max-width: 100%;
+    }
+
+    .welcome-image-content img {
+        display: none;
+    }
+
+    .welcome-h-screen-sm {
+        height: auto;
+    }
+}

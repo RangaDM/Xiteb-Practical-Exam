@@ -5,8 +5,8 @@ import bgImage from "../assets/cargo-bg.jpg";
 
 const Banner = () => {
   return (
-    <div className="h-screen py-2">
-      <section className="shipping-partner-section">
+    <div className="py-2 pb-10">
+      <div className="shipping-partner-section">
         <div className="text-content max-w-md">
           <h2 className="tagline">LOGISTIC</h2>
           <h1 className="main-title">
@@ -28,7 +28,7 @@ const Banner = () => {
             alt="nature image"
           />
         </div>
-      </section>
+      </div>
     </div>
   );
 };

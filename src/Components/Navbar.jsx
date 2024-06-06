@@ -18,6 +18,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import React from "react";
+import { Link } from 'react-scroll';
 import logo from "../assets/logo.svg";
 
 const servicesList = [
@@ -35,14 +36,16 @@ const servicesList = [
 
 const homeList = [
   {
-    title: "Home Products",
+    title: "Slider",
     description: "Discover products for your home needs.",
     icon: SquaresPlusIcon,
+    target: "banner"
   },
   {
-    title: "Our Story",
+    title: "Welcome",
     description: "Learn about our journey and values.",
     icon: UserGroupIcon,
+    target: "welcome"
   },
 ];
 
@@ -95,8 +98,13 @@ const pagesList = [
 function Home() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = homeList.map(({ icon, title, description }, key) => (
-    <a href="#" key={key}>
+  const renderItems = homeList.map(({ icon, title, description , target }, key) => (
+    <Link
+      to={target}
+      smooth={true}
+      key={key}
+      className="navbar-link"
+    >
       <MenuItem className="flex items-center gap-3 rounded-lg">
         <div className="flex items-center justify-center rounded-lg p-2">
           {React.createElement(icon, {
@@ -120,7 +128,7 @@ function Home() {
           </Typography>
         </div>
       </MenuItem>
-    </a>
+    </Link>
   ));
 
   return (
@@ -420,6 +428,9 @@ function NavList() {
 
 export function NavbarWithMegaMenu() {
   const [openNav, setOpenNav] = React.useState(false);
+  const scrollToComponent = (componentId) => {
+    document.getElementById(componentId).scrollIntoView({ behavior: 'smooth' });
+  }
 
   React.useEffect(() => {
     window.addEventListener(
