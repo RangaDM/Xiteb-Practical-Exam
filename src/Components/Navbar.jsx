@@ -47,6 +47,12 @@ const homeList = [
     icon: UserGroupIcon,
     target: "welcome"
   },
+  {
+    title: "Services",
+    description: "Explore our wide range of services.",
+    icon: UserGroupIcon,
+    target: "services"
+  },
 ];
 
 const blogList = [

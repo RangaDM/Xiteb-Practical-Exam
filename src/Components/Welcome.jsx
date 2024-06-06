@@ -6,7 +6,7 @@ import bgImage from "../assets/welcome.png";
 const Welcome = () => {
   return (
     <div className="pb-10 welcome-h-screen-sm flex justify-center items-center">
-      <div className="welcome-shipping-partner-section">
+      <div className="welcome-section">
         <div className="welcome-image-content">
           <img
             className="welcome-w-full rounded-lg object-cover object-center"
