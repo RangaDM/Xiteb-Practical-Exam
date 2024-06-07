@@ -4,6 +4,7 @@ import Banner from "../Components/Banner";
 import Welcome from "../Components/Welcome";
 import Footer from "../Components/Footer";
 import Services from "../Components/Services ";
+import Statistics from "../Components/Statistics ";
 
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
       </div>
       <div id="services">
         <Services />
+      </div>
+      <div id="statistics">
+        <Statistics />
       </div>
       <Footer />
     </div>
