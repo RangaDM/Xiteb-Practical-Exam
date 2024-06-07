@@ -43,7 +43,7 @@ I wrote complete GitHub Actions code for testing and deploying the project on Gi
 2. Clone the Git repository:
 
     ```bash
-    git clone https://github.com/RangaDM/Xiteb-Practical-Exam.git
+    git clone https://github.com/RangaDM/Xiteb-Practical-Exam
     ```
 
 3. Open the project in Visual Studio Code.
