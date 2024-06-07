@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Clients.css";
+import "../Styles/Clients.css";
 import img1 from "../assets/clients/1.png";
 import img2 from "../assets/clients/2.png";
 import img3 from "../assets/clients/3.png";

@@ -57,12 +57,8 @@ const Footer = () => {
         <div className="footer-section customer-images">
           <h3>Customer Service</h3>
           <div className="images">
-            <img src="image1.jpg" alt="Service 1" />
-            <img src="image2.jpg" alt="Service 2" />
-            <img src="image3.jpg" alt="Service 3" />
-            <img src="image4.jpg" alt="Service 4" />
-            <img src="image5.jpg" alt="Service 5" />
-            <img src="image6.jpg" alt="Service 6" />
+            <img src="https://via.placeholder.com/100" alt="Service 1" />
+            <img src="https://via.placeholder.com/100" alt="Service 2" />
           </div>
         </div>
       </div>

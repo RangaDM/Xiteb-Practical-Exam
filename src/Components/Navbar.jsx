@@ -460,7 +460,7 @@ export function NavbarWithMegaMenu() {
           <Button color="amber" size="sm">
             GET A QUOTE
           </Button>
-          <Button color="black" size="sm">
+          <Button size="sm">
             SIGN IN
           </Button>
         </div>
@@ -483,7 +483,7 @@ export function NavbarWithMegaMenu() {
           <Button color="amber" size="sm">
             GET A QUOTE
           </Button>
-          <Button color="black" size="sm">
+          <Button size="sm">
             SIGN IN
           </Button>
         </div>
