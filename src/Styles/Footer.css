@@ -134,3 +134,11 @@
         width: 100%;
       }
   }
+
+  @media (min-width: 768px){
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }

@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const testimonials = [
   {
@@ -44,7 +44,7 @@ const TestimonialsWhyChooseUs = () => {
             pagination={{
               clickable: true,
             }}
-            modules={[Navigation, Pagination]}
+            modules={[Autoplay, Navigation, Pagination]}
             className="mySwiper"
           >
             {testimonials.map((testimonial, index) => (

@@ -1,6 +1,9 @@
 // src/Footer.js
 import React from "react";
 import "../Styles/Footer.css";
+import { FaBehanceSquare, FaFacebook, FaVimeo } from "react-icons/fa";
+import { FaSquareTwitter } from "react-icons/fa6";
+import { RiFootballLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -22,7 +25,6 @@ const Footer = () => {
         </div>
       </div>
 
-      
       <div className="footer-content">
         <div className="footer-section about-us">
           <h3>About Us</h3>
@@ -65,7 +67,16 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>Copyright © 2024 All Rights Reserved. Site By Ranga®</p>
+        <div>
+          <p>Copyright © 2024 All Rights Reserved. Site By Ranga®</p>
+        </div>
+        <div className="flex justify-center items-center gap-3">
+          <FaFacebook size={22} />
+          <FaVimeo size={22} />
+          <FaSquareTwitter size={22} />
+          <FaBehanceSquare size={22} />
+          <RiFootballLine size={22} />
+        </div>
       </div>
     </footer>
   );
