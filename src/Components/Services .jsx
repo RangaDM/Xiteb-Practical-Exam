@@ -73,7 +73,6 @@ const Services = () => {
             el: ".services-pagination",
             clickable: true,
           }}
-          navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
           breakpoints={{
@@ -104,7 +103,7 @@ const Services = () => {
         </Swiper>
         <div className="services-pagination"></div>
 
-        <div className="services-title-container">
+        <div className="services-title-container ">
           <span>Logistic & Transport Solutions Saves Your Time. Find Your Solutions</span>
           <a href="/">
             <div className="services-btn">

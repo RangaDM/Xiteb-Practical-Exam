@@ -53,6 +53,12 @@ const homeList = [
     icon: UserGroupIcon,
     target: "services"
   },
+  {
+    title: "Statistics",
+    description: "Get insights about our company's growth.",
+    icon: SquaresPlusIcon,
+    target: "statistics"
+  }
 ];
 
 const blogList = [
