@@ -103,14 +103,21 @@ const Services = () => {
         </Swiper>
         <div className="services-pagination"></div>
 
-        <div className="services-title-container ">
-          <span>Logistic & Transport Solutions Saves Your Time. Find Your Solutions</span>
-          <a href="/">
-            <div className="services-btn">
-              <span>Discover More</span>
-              <FaCircleArrowRight className="services-btn-icon" />
-            </div>
-          </a>
+        <div className="services-title-container items-center justify-center grid gap-2">
+          <div>
+            <span>
+              Logistic & Transport Solutions Saves Your Time. Find Your
+              Solutions
+            </span>
+          </div>
+          <div>
+            <a href="/">
+              <div className="services-btn">
+                <span>Discover More</span>
+                <FaCircleArrowRight className="services-btn-icon" />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

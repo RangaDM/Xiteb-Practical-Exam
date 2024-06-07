@@ -1,33 +1,50 @@
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    overflow-x: 1; /* Add this line */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow-x: 1;
 }
 
 .clients-section {
-    text-align: center;
-    padding: 50px 0;
+  text-align: center;
 }
 
 .clients-section h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .clients-section p {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .clients {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap; /* Add this line */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .clients img {
-    width: 50%; /* Change this line */
-    max-width: 200px;
-    min-width: 100px;
-    margin-bottom: 20px;
+  width: 50%;
+  max-width: 200px;
+  min-width: 100px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .clients-section {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients-section {
+    padding: 25px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .clients-section {
+    padding: 80px 0;
+  }
 }

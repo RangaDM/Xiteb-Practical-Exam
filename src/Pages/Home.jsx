@@ -7,11 +7,11 @@ import Services from "../Components/Services ";
 import Statistics from "../Components/Statistics ";
 import TestimonialsWhyChooseUs from "../Components/TestimonialsWhyChooseUs ";
 import Clients from "../Components/Clients";
+import News from "../Components/News";
 
 const Home = () => {
   return (
     <div className="pt-5" id="banner">
-      <NavbarWithMegaMenu />
       <div>
         <Banner />
       </div>
@@ -30,7 +30,9 @@ const Home = () => {
       <div id="clients">
         <Clients />
       </div>
-      <Footer />
+      <div id="news">
+        <News />
+      </div>
     </div>
   );
 };

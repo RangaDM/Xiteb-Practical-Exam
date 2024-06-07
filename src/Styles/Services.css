@@ -49,6 +49,9 @@ body {
       }
 }
 
+.services-title-container{
+}
+
 @media (max-width: 768px) {
     .services-h-screen-sm {
         height: auto;

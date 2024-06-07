@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 40px 0;
+  padding: 80px 0;
   background-color: #ffffff;
   flex-wrap: wrap;
 }
@@ -46,7 +46,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
   .stat-number {
     font-size: 2.5rem;
@@ -68,5 +68,9 @@
 
   .stat-description {
     font-size: 0.9rem;
+  }
+
+  .statistics-container{
+    padding: 0px;
   }
 }
